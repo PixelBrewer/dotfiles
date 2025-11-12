@@ -5,7 +5,7 @@ All my dotfiles in one place. Neat! 😁
 ## Structure
 
 Anything pertaining to zsh-configurations can be found in the `zsh-configs` folder.
-All Scripts are separated into folders based on their intended platform (e.g., `linux-scripts`, `macos-scripts`).
+All Scripts are separated into folders based on their intended platform (![Arch Linux Logo](/assets/arch-linux.svg), ![Classic Apple Logo](/assets/apple-alt.svg)).
 
 ## Installation
 
