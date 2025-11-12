@@ -1,0 +1,17 @@
+#!/bin/zsh
+
+# Nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Bun completions
+[ -s "/home/alex/.bun/_bun" ] && source "/home/alex/.bun/_bun"
+# Bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Deno
+# Add deno completions to search path
+if [[ ":$FPATH:" != *":/home/alex/.zsh/completions:"* ]]; then export FPATH="/home/alex/.zsh/completions:$FPATH"; fi
+. "/home/alex/.deno/env"

@@ -1,0 +1,9 @@
+#!/bin/zsh
+# Starship prompt
+eval "$(starship init zsh)"
+
+# Zoxide
+eval "$(zoxide init zsh)"
+
+# Fzf
+source <(fzf --zsh)
