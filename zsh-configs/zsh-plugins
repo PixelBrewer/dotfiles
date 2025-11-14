@@ -1,8 +1,21 @@
 #!/bin/zsh
 
+
+if [() "$(uname -s)" == "Linux" ]; then
+# Linux specific settings
 # Zsh autosuggestions:
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Zsh syntax highlighting:
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+fi
+
+if [ "$(uname -s)" == "Darwin" ]; then
+# MacOS specific settings
+# Zsh autosuggestions:
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Zsh syntax highlighting:
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
