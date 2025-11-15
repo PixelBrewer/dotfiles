@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-if [ "$(uname -s)" == "Linux" ]; then
+if [ "$(uname -s)" = "Linux" ]; then
 # Linux specific settings
 # Nvm
 export NVM_DIR="$HOME/.nvm"
@@ -19,7 +19,7 @@ if [[ ":$FPATH:" != *":/home/alex/.zsh/completions:"* ]]; then export FPATH="/ho
 . "/home/alex/.deno/env"
 fi
 
-if [ "$(uname -s)" == "Darwin" ]; then
+if [ "$(uname -s)" = "Darwin" ]; then
 # MacOS specific settings
 # Nvm
 export NVM_DIR="$HOME/.nvm"

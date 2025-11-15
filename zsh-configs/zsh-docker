@@ -1,10 +1,10 @@
 #!/bin/zsh
 
-if [ "$(uname -s)" == "Linux" ]; then
+if [ "$(uname -s)" = "Linux" ]; then
 # Linux specific configs
 fi
 
-if [ "$(uname -s)" == "Darwin" ]; then
+if [ "$(uname -s)" = "Darwin" ]; then
 # MacOS specific configs
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/alex/.docker/completions $fpath)
