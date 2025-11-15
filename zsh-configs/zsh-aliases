@@ -27,6 +27,7 @@ alias ga="git add -A"
 alias gc="git commit -m"
 alias gp="git push"
 alias gl="git log --oneline --graph --decorate"
+alias lg="lazygit"
 
 # Bat
 alias cat="bat"
@@ -41,3 +42,6 @@ alias remove="sudo pacman -R"
 alias search="pacman -Ss"
 alias list="pacman -Q"
 alias info="pacman -Si"
+
+# Docker
+alias ld="lazydocker"
