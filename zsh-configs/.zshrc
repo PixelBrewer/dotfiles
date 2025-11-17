@@ -6,7 +6,7 @@ source ~/dotfiles/zsh-configs/zsh-aliases
 # Runtimes and specific package needs
 source ~/dotfiles/zsh-configs/zsh-package-utils
 
-# starship prompt
+# Starship prompt
 source ~/dotfiles/zsh-configs/zsh-evals
 
 # Zsh plugins
