@@ -25,7 +25,6 @@ alias cls="clear"
 alias gs="git status"
 alias ga="git add -A"
 alias gc="git commit -m"
-alias gp="git push"
 alias gl="git log --oneline --graph --decorate"
 alias lg="lazygit"
 
@@ -33,7 +32,9 @@ alias lg="lazygit"
 alias cat="bat"
 
 # Navigational aliases
-alias projects="cd ~/Drives/BagEnd/Projects/"
+alias proj="cd ~/Drives/BagEnd/Projects/"
+alias dot="cd ~/dotfiles/"
+alias vault="cd ~/Drives/Erebor/Vault/"
 
 # Pacman
 alias upgrade="sudo pacman -Syu"
@@ -45,7 +46,6 @@ alias info="pacman -Si"
 
 # Paru
 alias pupgrade="paru -Sua"
-
 
 # Docker
 alias ld="lazydocker"
