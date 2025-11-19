@@ -5,6 +5,7 @@
 # Update and upgrade the system
 sudo pacman -Syu --noconfirm
 echo "System updated and upgraded."
+echo "System ready for new packages!"
 
 # If .zshrc does not exist, create it
 [ -f ~/.zshrc ] || touch ~/.zshrc

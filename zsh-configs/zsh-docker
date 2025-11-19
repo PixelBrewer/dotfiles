@@ -2,6 +2,9 @@
 
 if [ "$(uname -s)" = "Linux" ]; then
 # Linux specific configs
+fpath=(/home/alex/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
 fi
 
 if [ "$(uname -s)" = "Darwin" ]; then

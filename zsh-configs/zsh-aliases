@@ -43,5 +43,9 @@ alias search="pacman -Ss"
 alias list="pacman -Q"
 alias info="pacman -Si"
 
+# Paru
+alias pupgrade="paru -Sua"
+
+
 # Docker
 alias ld="lazydocker"
