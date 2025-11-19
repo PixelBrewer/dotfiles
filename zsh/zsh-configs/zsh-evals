@@ -7,3 +7,6 @@ eval "$(zoxide init zsh)"
 
 # Fzf
 source <(fzf --zsh)
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
