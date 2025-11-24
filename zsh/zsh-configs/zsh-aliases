@@ -49,3 +49,6 @@ alias pupgrade="paru -Sua"
 
 # Docker
 alias ld="lazydocker"
+
+# Pnpm
+alias npm="pnpm"
