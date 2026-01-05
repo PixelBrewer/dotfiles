@@ -28,24 +28,25 @@ chmod +x initialize-syste.sh
 
 ### Zsh configs
 
-To use these zsh dotfiles simply clone the repository to your home folder (~) on unix-based systems, then source the base .zshrc file inside the zsh-configs folder inside the default .zshrc file.
+To use these zsh dotfiles simply clone the repository to your home folder (~) on unix-based systems, then run the "install.sh" scripts in the directories pertaining to the individual dotfiles you want.
+This will copy the dotfile or config folder to the appropriate directory on the client machine.
 
 ```sh
 cd ~
 # Clone the repository
 git clone https://github.com/Pixelbrewer/dotfiles.git
-# Open the default .zshrc file in neovim. If you do not have neovim installed you can use any text editor of your choice.
-nvim ~/.zshrc
-# Add the following line to the file:
-source ~/.dotfiles/zsh-configs/.zshrc
+# Navigate to the desired config directory. I will use zsh for example.
+cd zsh
+# Add execute permissions on the install.sh script
+chmod +x install.sh
+# Run the install script
+./install.sh
 ```
 
 ## Work still to be done
 
 TODO:
 
-- [ ] Add more documentation to each script file
 - [ ] Create installation scripts for other Linux distros (e.g., Ubuntu, Fedora)
 - [ ] Add error handling to scripts
 - [ ] Create backup scripts for existing configurations before overwriting
-- [ ] Add more zsh plugins and themes, specifically starship.rs and it's configs.
