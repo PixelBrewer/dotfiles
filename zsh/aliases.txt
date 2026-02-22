@@ -1,0 +1,36 @@
+###############
+### Aliases ###
+###############
+
+alias youtube="open https://www.youtube.com"
+alias github="open https://www.github.com"
+alias gitlab="open https://www.gitlab.com"
+
+alias lg="lazygit"
+alias ld="lazydocker"
+
+alias python="python3"
+alias vim="nvim"
+
+alias ff="fastfetch"
+alias bt="btop"
+alias yz="yazi"
+alias md="glow"
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias ~="cd ~"
+
+alias cat="bat"
+
+alias gs="git status"
+alias ga="git add -A"
+alias gc="git commit -m"
+alias gl="git log --oneline --graph --decorate"
+
+alias proj="cd ~/drives/moria/projects/"
+alias vault="cd ~/drives/erebor/USS-Enterprise/"
+alias lab="cd ~/drives/moria/projects/gitlab/"
+alias hub="cd ~/drives/moria/projects/github/"
+alias configs="cd ~/.config/"
