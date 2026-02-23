@@ -1,0 +1,18 @@
+[tools]
+"npm:@angular/cli" = "latest"
+bun = "latest"
+cmake = "latest"
+deno = "latest"
+dotnet = "latest"
+go = "latest"
+java = "latest"
+ninja = "latest"
+node = "latest"
+python = "latest"
+rust = "latest"
+zig = "latest"
+zls = "latest"
+
+[settings]
+idiomatic_version_file_enable_tools = ["ruby"]
+
